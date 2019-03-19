@@ -77,7 +77,7 @@ public class Accumulator {
                However, use of this operator alone is insufficient,
                because the compiler
                objects to the following code that adds use of
-               the operator to the code from Stumbling block 0:
+                the operator to the code from Stumbling block 0:
              */
 
              // String stringElem = ( String)list.get( el);
@@ -100,7 +100,7 @@ public class Accumulator {
                      String stringElem = ( String)list.get( el);
                      if( stringElem.startsWith( prefix))
                          result += stringElem + " ";}
-
+}
         return result;
     }
 
