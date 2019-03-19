@@ -16,9 +16,9 @@ public class Accumulator {
       ) {
         String result = "";
 
-        for( int el = 0; el < list.size(); el++)
-            result += // dummy for incremental development
-                      list.get( el) + " ";
+        for( int el = 0; el < list.size(); el++){
+            // result += // dummy for incremental development
+            //           list.get( el) + " ";
 
             /* 3.  Stumbling block 0
                Java protects a programmer against applying a method to
@@ -99,7 +99,7 @@ public class Accumulator {
             if( list.get( el) instanceof String){
                      String stringElem = ( String)list.get( el);
                      if( stringElem.startsWith( prefix))
-                         result += stringElem + " ";
+                         result += stringElem + " ";}
 
         return result;
     }
